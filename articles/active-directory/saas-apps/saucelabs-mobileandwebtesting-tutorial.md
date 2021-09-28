@@ -110,23 +110,23 @@ In this section, you'll enable B.Simon to use Azure single sign-on by granting a
 
 	![Screenshot that shows the "User" icon and "Team Management" drop-down selected.](./media/saucelabs-mobileandwebtesting-tutorial/user.png)
 
-3. Enter your **Domain name** in the textbox.
+3. Click **View Settings** under **Organization Settings**.
 
-	![Screenshot that shows an example domain name in the textbox.](./media/saucelabs-mobileandwebtesting-tutorial/domain.png)
+	![Screenshot that shows the View Settings button in the Organization Settings box.](./media/saucelabs-mobileandwebtesting-tutorial/orgsettings.png)
 
-4. Click **Configure** tab.
+4. Click **Single Sign-On** tab.
 
-	![Screenshot that shows the "Configure" tab selected under "Single Sign On is Enabled".](./media/saucelabs-mobileandwebtesting-tutorial/configure.png)
+	![Screenshot that shows the "Single Sign-On" tab selected under "Organization Settings".](./media/saucelabs-mobileandwebtesting-tutorial/configure.png)
 
-5. In the **Configure Single Sign On** section, perform the following steps.
+5. In the **Single Sign-On** section, perform the following steps.
 
 	![Configure Single Sign-On](./media/saucelabs-mobileandwebtesting-tutorial/browse.png)
 
-	a. Click **Browse** and upload the downloaded metadata file from the Azure AD.
+	a. Define your Unique Identifier String (UIS) and click Save
 
 	b. Select the **ALLOW JUST-IN-TIME PROVISIONING** checkbox.
 
-	c. Click **Save**.
+	c. Click **Upload New Metadata File** and upload the downloaded metadata file from the Azure AD.
 
 ### Create Sauce Labs - Mobile and Web Testing test user
 
